@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse my web development projects and examples of accessible website design.">
+    <meta name="author" content="Madhavan">
+    <title>Projects | Madhavan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html" aria-label="Madhavan - Home">
+                Madhavan<span>.</span>
+            </a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" aria-current="page">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <header class="page-heading">
+            <p class="eyebrow">MY WORK</p>
+            <h1>My Projects</h1>
+            <p>A selection of projects I have built or plan to develop.</p>
+        </header>
+
+        <section class="content-section" aria-labelledby="project-list-title">
+            <h2 id="project-list-title">Featured Projects</h2>
+
+            <div class="card-grid">
+                <article class="card project-card">
+                    <p class="project-number" aria-hidden="true">01</p>
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A multi-page portfolio built with semantic HTML5,
+                        responsive CSS, and accessibility best practices.
+                    </p>
+                    <p><strong>Technologies:</strong> HTML5, CSS3</p>
+                </article>
+
+                <article class="card project-card">
+                    <p class="project-number" aria-hidden="true">02</p>
+                    <h3>Task Manager</h3>
+                    <p>
+                        A task management interface for organizing activities,
+                        setting priorities, and tracking progress.
+                    </p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                </article>
+
+                <article class="card project-card">
+                    <p class="project-number" aria-hidden="true">03</p>
+                    <h3>Student Dashboard</h3>
+                    <p>
+                        A student dashboard concept for displaying schedules,
+                        study goals, and academic progress.
+                    </p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="content-section callout" aria-labelledby="collaborate-title">
+            <h2 id="collaborate-title">Have a Project in Mind?</h2>
+            <p>I'd love to hear about your ideas and opportunities.</p>
+            <a class="button" href="contact.html">Contact Me</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2026</span> Madhavan. All rights reserved.</p>
+            <p>Built with semantic HTML5 and accessibility in mind.</p>
+        </div>
+    </footer>
+</body>
+</html>
